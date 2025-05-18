@@ -7,14 +7,14 @@
         <hint>The ServiceNow app the world has been waiting for like hell</hint>
         <name/>
         <order>100</order>
-        <roles/>
+        <roles>x_snc_doom.player</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-09 14:11:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f4d0ea579351a610ae97b4aa6aba1047</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Doom</sys_name>
         <sys_overrides/>
         <sys_package display_value="Doom WORK IN PROGRESS" source="x_snc_doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Doom WORK IN PROGRESS">fd8c8ddb931d6610ae97b4aa6aba1095</sys_scope>
         <sys_update_name>sys_app_application_f4d0ea579351a610ae97b4aa6aba1047</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-09 14:11:23</sys_updated_on>
+        <sys_updated_on>2025-05-18 12:42:49</sys_updated_on>
         <title>Doom</title>
         <view_name/>
     </sys_app_application>
