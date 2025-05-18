@@ -74,6 +74,12 @@
 	
 	<h2>Release Notes</h2>
 
+	<h3>1.1.0 - TODO</h3>
+	<ol>
+		<li>TODO: Document changes here...</li>
+	</ol>
+
+
 	<h3>1.0.0 - 2025-05-18</h3>
 	<p>First baselined version</p>
 
@@ -88,9 +94,9 @@
         <sys_id>e4d0aa579351a610ae97b4aa6aba10f9</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>manual</sys_name>
-        <sys_package display_value="Doom" source="x_snc_doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_package>
+        <sys_package display_value="Doom WORK IN PROGRESS" source="x_snc_doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_scope>
+        <sys_scope display_value="Doom WORK IN PROGRESS">fd8c8ddb931d6610ae97b4aa6aba1095</sys_scope>
         <sys_update_name>sys_ui_page_e4d0aa579351a610ae97b4aa6aba10f9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-05-18 12:41:37</sys_updated_on>
