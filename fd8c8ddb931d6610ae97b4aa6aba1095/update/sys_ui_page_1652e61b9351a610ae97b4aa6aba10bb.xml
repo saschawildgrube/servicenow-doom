@@ -29,7 +29,7 @@
 
     <div id="dosbox"></div>
     <br/>
-    <button onclick="dosbox.requestFullScreen();">Make fullscreen</button>
+    <button class="form_action_button header action_context btn btn-default" onclick="dosbox.requestFullScreen();">Make fullscreen</button>
 
 
     <script type="text/javascript">
@@ -55,14 +55,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-09 14:19:06</sys_created_on>
         <sys_id>1652e61b9351a610ae97b4aa6aba10bb</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>start</sys_name>
         <sys_package display_value="Doom WORK IN PROGRESS" source="x_snc_doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_package>
         <sys_policy/>
         <sys_scope display_value="Doom WORK IN PROGRESS">fd8c8ddb931d6610ae97b4aa6aba1095</sys_scope>
         <sys_update_name>sys_ui_page_1652e61b9351a610ae97b4aa6aba10bb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-09 14:27:48</sys_updated_on>
+        <sys_updated_on>2025-05-18 12:48:59</sys_updated_on>
     </sys_ui_page>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>1652e61b9351a610ae97b4aa6aba10bb</id>
