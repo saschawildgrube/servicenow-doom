@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Checks if all documented dependencies of the application are installed in a compatible version
+</description>
+        <display_name>DevTools - Check app dependencies</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="DevTools - Check app dependencies">e4b8e71e1bbb5d105b76777d8b4bcb35</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-17 14:42:07</sys_created_on>
+        <sys_id>ba843f3993a96250ae97b4aa6aba1028</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DevTools - Check app dependencies</sys_name>
+        <sys_package display_value="Doom WORK IN PROGRESS" source="x_snc_doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Doom WORK IN PROGRESS">fd8c8ddb931d6610ae97b4aa6aba1095</sys_scope>
+        <sys_update_name>sys_atf_step_ba843f3993a96250ae97b4aa6aba1028</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-17 14:42:07</sys_updated_on>
+        <table/>
+        <test display_value="Doom - Installation">64d0ea579351a610ae97b4aa6aba1034</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=ba843f3993a96250ae97b4aa6aba1028"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Doom">fd8c8ddb931d6610ae97b4aa6aba1095</application>
+        <file_path/>
+        <instance_id>220092723b73421816e44a8aa4e45ab1</instance_id>
+        <instance_name>wildxanadu</instance_name>
+        <name>sys_atf_step_ba843f3993a96250ae97b4aa6aba1028</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Checks if all documented dependencies of the application are installed in a compatible version
+</description><display_name>DevTools - Check app dependencies</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="DevTools - Check app dependencies">e4b8e71e1bbb5d105b76777d8b4bcb35</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-17 14:42:07</sys_created_on><sys_id>ba843f3993a96250ae97b4aa6aba1028</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DevTools - Check app dependencies</sys_name><sys_package display_value="Doom WORK IN PROGRESS" source="x_snc_doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_package><sys_policy/><sys_scope display_value="Doom WORK IN PROGRESS">fd8c8ddb931d6610ae97b4aa6aba1095</sys_scope><sys_update_name>sys_atf_step_ba843f3993a96250ae97b4aa6aba1028</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-17 14:42:07</sys_updated_on><table/><test display_value="Doom - Installation">64d0ea579351a610ae97b4aa6aba1034</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=ba843f3993a96250ae97b4aa6aba1028"/></record_update>]]></payload>
+        <payload_hash>-101961350</payload_hash>
+        <record_name>DevTools - Check app dependencies</record_name>
+        <reverted_from/>
+        <source>5e0d491f931d6610ae97b4aa6aba10e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-17 14:42:07</sys_created_on>
+        <sys_id>81947f3993a96250ae97b4aa6aba101b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196deb1f7ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-17 14:42:07</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>45947f397ba962505eaca54a4094311a</update_guid>
+        <update_guid_history>45947f397ba962505eaca54a4094311a:-101961350</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-17 14:43:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0f3de56095d3448084d87713cd224000</sys_id>
+        <sys_metadata>ba843f3993a96250ae97b4aa6aba1028</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DevTools - Check app dependencies</sys_name>
+        <sys_package display_value="Doom" source="x_snc_doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_scope>
+        <sys_scope_delete display_value="">83236949d0144d18bafdcc67a8260510</sys_scope_delete>
+        <sys_update_name>sys_atf_step_ba843f3993a96250ae97b4aa6aba1028</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_ba843f3993a96250ae97b4aa6aba1028">81947f3993a96250ae97b4aa6aba101b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-17 14:43:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

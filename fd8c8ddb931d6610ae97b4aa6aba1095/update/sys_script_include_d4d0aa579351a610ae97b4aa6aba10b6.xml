@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_doom.DevTools</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description>Implements the extension point for DevTools.
+|
+Methods:
+* initialize()
+* GetParentRecord()
+* GetLinkDirectory()
+* GetFormatConfig()
+* GetApplicationStatus()
+* RenderDebugDump()
+* GetInstancePipelineName()
+* GetEncodedQueryToPreventUselessChecks()
+* AppVersionBaselineOnFinish()
+* Prompt()
+* IsTechnicalUser()</description>
+        <mobile_callable>false</mobile_callable>
+        <name>DevTools</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var DevTools = Class.create();
+DevTools.prototype = {
+	initialize: function()
+	{	
+	},
+
+	GetParentRecord: function(grRecord)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsValidFunction(x_snc_doom.DevToolsGetParentRecord))
+		{
+			return DevToolsGetParentRecord(grRecord);
+		}
+		return false;
+	},	
+
+	GetLinkDirectory: function(linkdirectory)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsValidFunction(x_snc_doom.DevToolsGetLinkDirectory))
+		{
+			return DevToolsGetLinkDirectory(linkdirectory);
+		}
+		return linkdirectory;
+	},
+
+	GetFormatConfig: function(grRecord)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsValidFunction(x_snc_doom.DevToolsGetFormatConfig))
+		{
+			return DevToolsGetFormatConfig(grRecord);
+		}
+		return false;
+	},	
+	
+	GetApplicationStatus: function(status)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsValidFunction(x_snc_doom.DevToolsGetApplicationStatus))
+		{
+			status = DevToolsGetApplicationStatus(status);
+		}
+		return status;
+	},		
+
+	RenderDebugDump: function()
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		var strDebug = '';
+		if (IsValidFunction(x_snc_doom.DevToolsRenderDebugDump))
+		{
+			strDebug = x_snc_devtools.GetStringValue(DevToolsRenderDebugDump());
+		}
+		return strDebug;
+	},		
+	
+	GetInstancePipelineName: function(strInstanceName)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		var strInstancePipelineName = '';
+		if (IsValidFunction(x_snc_doom.DevToolsGetInstancePipelineName))
+		{
+			strInstancePipelineName =
+				x_snc_devtools.GetStringValue(DevToolsGetInstancePipelineName(strInstanceName));
+		}
+		return strInstancePipelineName;	
+	},
+
+	GetEncodedQueryToPreventUselessChecks: function(rules)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsValidFunction(x_snc_doom.DevToolsGetEncodedQueryToPreventUselessChecks))
+		{
+			return DevToolsGetEncodedQueryToPreventUselessChecks(rules);
+		}
+		return rules;
+	},	
+
+	AppVersionBaselineOnFinish: function(params)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsValidFunction(x_snc_doom.DevToolsAppVersionBaselineOnFinish))
+		{
+			return DevToolsAppVersionBaselineOnFinish(params);
+		}
+		return false;
+	},			
+
+	Prompt: function(vPrompt)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsValidFunction(x_snc_doom.DevToolsPrompt))
+		{
+			return DevToolsPrompt(vPrompt);
+		}
+		return false;
+	},	
+
+	IsTechnicalUser: function(grUser)
+	{
+		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		if (IsValidFunction(x_snc_doom.DevToolsIsTechnicalUser))
+		{
+			return DevToolsIsTechnicalUser(grUser);
+		}
+		return false;
+	},				
+
+	
+	type: 'DevTools'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-09 14:11:21</sys_created_on>
+        <sys_id>d4d0aa579351a610ae97b4aa6aba10b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DevTools</sys_name>
+        <sys_package display_value="Doom" source="x_snc_doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_scope>
+        <sys_update_name>sys_script_include_d4d0aa579351a610ae97b4aa6aba10b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-09 14:11:21</sys_updated_on>
+    </sys_script_include>
+</record_update>
