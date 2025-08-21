@@ -30,8 +30,8 @@ DevTools.prototype = {
 
 	GetParentRecord: function(grRecord)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_doom.DevToolsGetParentRecord))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_doom.DevToolsGetParentRecord))
 		{
 			return DevToolsGetParentRecord(grRecord);
 		}
@@ -40,8 +40,8 @@ DevTools.prototype = {
 
 	GetLinkDirectory: function(linkdirectory)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_doom.DevToolsGetLinkDirectory))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_doom.DevToolsGetLinkDirectory))
 		{
 			return DevToolsGetLinkDirectory(linkdirectory);
 		}
@@ -50,8 +50,8 @@ DevTools.prototype = {
 
 	GetFormatConfig: function(grRecord)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_doom.DevToolsGetFormatConfig))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_doom.DevToolsGetFormatConfig))
 		{
 			return DevToolsGetFormatConfig(grRecord);
 		}
@@ -60,8 +60,8 @@ DevTools.prototype = {
 	
 	GetApplicationStatus: function(status)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_doom.DevToolsGetApplicationStatus))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_doom.DevToolsGetApplicationStatus))
 		{
 			status = DevToolsGetApplicationStatus(status);
 		}
@@ -70,9 +70,9 @@ DevTools.prototype = {
 
 	RenderDebugDump: function()
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		var IsFunction = x_snc_devtools.IsFunction;
 		var strDebug = '';
-		if (IsValidFunction(x_snc_doom.DevToolsRenderDebugDump))
+		if (IsFunction(x_snc_doom.DevToolsRenderDebugDump))
 		{
 			strDebug = x_snc_devtools.GetStringValue(DevToolsRenderDebugDump());
 		}
@@ -81,9 +81,9 @@ DevTools.prototype = {
 	
 	GetInstancePipelineName: function(strInstanceName)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
+		var IsFunction = x_snc_devtools.IsFunction;
 		var strInstancePipelineName = '';
-		if (IsValidFunction(x_snc_doom.DevToolsGetInstancePipelineName))
+		if (IsFunction(x_snc_doom.DevToolsGetInstancePipelineName))
 		{
 			strInstancePipelineName =
 				x_snc_devtools.GetStringValue(DevToolsGetInstancePipelineName(strInstanceName));
@@ -93,8 +93,8 @@ DevTools.prototype = {
 
 	GetEncodedQueryToPreventUselessChecks: function(rules)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_doom.DevToolsGetEncodedQueryToPreventUselessChecks))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_doom.DevToolsGetEncodedQueryToPreventUselessChecks))
 		{
 			return DevToolsGetEncodedQueryToPreventUselessChecks(rules);
 		}
@@ -103,8 +103,8 @@ DevTools.prototype = {
 
 	AppVersionBaselineOnFinish: function(params)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_doom.DevToolsAppVersionBaselineOnFinish))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_doom.DevToolsAppVersionBaselineOnFinish))
 		{
 			return DevToolsAppVersionBaselineOnFinish(params);
 		}
@@ -113,8 +113,8 @@ DevTools.prototype = {
 
 	Prompt: function(vPrompt)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_doom.DevToolsPrompt))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_doom.DevToolsPrompt))
 		{
 			return DevToolsPrompt(vPrompt);
 		}
@@ -123,8 +123,8 @@ DevTools.prototype = {
 
 	IsTechnicalUser: function(grUser)
 	{
-		var IsValidFunction = x_snc_devtools.IsValidFunction;
-		if (IsValidFunction(x_snc_doom.DevToolsIsTechnicalUser))
+		var IsFunction = x_snc_devtools.IsFunction;
+		if (IsFunction(x_snc_doom.DevToolsIsTechnicalUser))
 		{
 			return DevToolsIsTechnicalUser(grUser);
 		}
@@ -138,13 +138,25 @@ DevTools.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-09 14:11:21</sys_created_on>
         <sys_id>d4d0aa579351a610ae97b4aa6aba10b6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>DevTools</sys_name>
         <sys_package display_value="Doom WORK IN PROGRESS" source="x_snc_doom">fd8c8ddb931d6610ae97b4aa6aba1095</sys_package>
         <sys_policy/>
         <sys_scope display_value="Doom WORK IN PROGRESS">fd8c8ddb931d6610ae97b4aa6aba1095</sys_scope>
         <sys_update_name>sys_script_include_d4d0aa579351a610ae97b4aa6aba10b6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-09 14:11:21</sys_updated_on>
+        <sys_updated_on>2025-08-11 07:32:13</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>d4d0aa579351a610ae97b4aa6aba10b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-11 07:32:13</sys_created_on>
+        <sys_id>42ea05ad93932210959b7fda2bba109c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-11 07:32:13</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
